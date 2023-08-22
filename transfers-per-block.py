@@ -1,8 +1,7 @@
 from web3 import Web3;
 
 
-w3 = Web3(Web3.HTTPProvider('insert node'))    
-w3 = Web3(Web3.HTTPProvider('input node'))    
+w3 = Web3(Web3.HTTPProvider('insert node'))      
 block_number = w3.eth.block_number
 print(block_number)
 number_of_transfers = 0
